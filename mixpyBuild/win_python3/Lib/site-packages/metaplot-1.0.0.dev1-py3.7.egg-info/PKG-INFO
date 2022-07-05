@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: metaplot
+Version: 1.0.0.dev1
+Summary: metaplot
+Home-page: https://github.com/sigvaldm/metaplot.git
+Author: Sigvald Marholm
+Author-email: marholm@marebakken.com
+License: LGPL
+Description: metaplot
+        ========
+        
+        .. image:: https://travis-ci.com/sigvaldm/metaplot.svg?branch=master
+            :target: https://travis-ci.com/sigvaldm/metaplot
+        
+        .. image:: https://coveralls.io/repos/github/sigvaldm/metaplot/badge.svg?branch=master
+            :target: https://coveralls.io/github/sigvaldm/metaplot?branch=master
+        
+        Initial version under development.
+        
+Platform: UNKNOWN

@@ -1,0 +1,10 @@
+README.rst
+metaplot.py
+setup.cfg
+setup.py
+metaplot.egg-info/PKG-INFO
+metaplot.egg-info/SOURCES.txt
+metaplot.egg-info/dependency_links.txt
+metaplot.egg-info/entry_points.txt
+metaplot.egg-info/requires.txt
+metaplot.egg-info/top_level.txt
