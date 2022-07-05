@@ -1,0 +1,560 @@
+#td_middle > div > ul > li:nth-child(1) > i {
+    display: none;
+}
+
+@media screen and (min-width: 1701px) {
+    #td_middle > div > div {
+        padding-bottom: 5px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 30px;
+        bottom: 0px;
+    }
+
+    #td_middle > div > ul {
+        height: 30px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+    }
+
+    #td_middle > div > ul li {
+        line-height: 30px;
+        font-size: 18px;
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+
+    #td_middle > div > ul .layui-this:after {
+        height: 30px;
+    }
+
+    #td_middle > div > ul li .layui-tab-close {
+        width: 15px;
+        height: 15px;
+        line-height: 17px;
+        font-size: 15px;
+        margin-left: 7px;
+        top: 0px;
+    }
+
+    .layui-badge-dot {
+        left: 4px !important;
+        top: -3px !important;
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    #td_middle > div > div {
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 20px;
+        bottom: 0px;
+    }
+
+    #td_middle > div > ul {
+        height: 20px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+    }
+
+    #td_middle > div > ul li {
+        line-height: 20px;
+        font-size: 12px;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    #td_middle > div > ul .layui-this:after {
+        height: 20px;
+    }
+
+    #td_middle > div > ul li .layui-tab-close {
+        width: 13px;
+        height: 13px;
+        line-height: 15px;
+        font-size: 10px;
+        margin-left: 6px;
+        top: 0px;
+    }
+
+    .layui-badge-dot {
+        left: 2px !important;
+        top: -1.5px !important;
+        width: 6px;
+        height: 6px;
+    }
+}
+
+.tab-ace {
+    width: auto;
+    height: 100%;
+    border: solid #ddd;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    /*overflow-x: auto;
+    overflow-y: scroll;*/
+    word-break: normal;
+    text-align: left;
+    resize: none;
+}
+
+.layui-form-label > .layui-unselect.layui-form-checkbox > span {
+    height: 25px;
+}
+
+.layui-layout-left {
+    position: absolute !important;
+    left: 0px;
+    top: 0;
+}
+/*layui child nav*/
+/*
+.layui-nav-child{display: none; position: absolute; left: 0; top: 65px; min-width: 100%; line-height: 36px; padding: 5px 0;  box-shadow: 0 2px 4px rgba(0,0,0,.12); border: 1px solid #d2d2d2; background-color: #fff; z-index: 100; border-radius: 2px; white-space: nowrap;}
+.layui-nav .layui-nav-child a{color: white;}
+.layui-nav .layui-nav-child a:hover{background-color:deepskyblue; color: white;}
+.layui-nav-child dd{position: relative;}
+.layui-nav-child dd.layui-this{background-color: transparent; color: white;}
+.layui-nav .layui-nav-child dd.layui-this a{background-color: transparent; color: white;}
+.layui-nav-child dd.layui-this:after{display: none;}
+*/
+/*layui child nav*/
+.layui-nav-child {
+    right: 0px;
+    left: auto;
+}
+/*layui third level nav*/
+.layui-nav-third-child {
+    display: none;
+    position: absolute;
+    left: auto;
+    top: 0px;
+    min-width: 100%;
+    line-height: 36px;
+    padding: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+    border: 1px solid #d2d2d2;
+    background-color: #fff;
+    z-index: 100;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+.layui-nav .layui-nav-third-child a {
+    color: #000;
+}
+.layui-nav .layui-nav-third-child a:hover {
+    color: #000;
+}
+.layui-nav-third-child li {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+.layui-nav .layui-nav-third-child li.layui-this a {
+    background-color: white !important;
+    color: black;
+}
+.layui-nav > li > dl > dd.layui-this > ol > li > a {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.layui-nav-third-child li:after {
+    display: none;
+}
+
+.layui-nav-child {
+    top: 50px;
+}
+
+#nav {
+    height: 48px;
+    z-index:999;
+    max-height: 48px;
+}
+
+.layui-nav .layui-nav-item {
+    line-height: 48px;
+}
+
+#boardSelector > div > div > input {
+    height: 30px;
+}
+
+#boardSelector > div > dl {
+    top: 32px;
+    border-style: ridge;
+}
+
+#boardSelector > dl {
+    top: 30px;
+}
+
+#boards-type {
+    height: 30px;
+}
+
+.layui-nav .layui-nav-item a {
+    padding: 0 17px !important;
+}
+
+* {
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#div_top {
+    width: 100%;
+    height: 100%;
+    overflow-x: inherit;
+    overflow-y: inherit;
+    white-space: nowrap;
+    text-align: left;
+    cursor: s-resize;
+    background: #ddd;
+}
+
+#div_top:hover {
+    background-color: #d9c6c6 !important;
+}
+
+#div_top:active {
+    background-color: #d9c6c6 !important;
+}
+
+#boardSelector-div {
+    width: 150px;
+    position: absolute;
+    right: 150px;
+    top: 9px;
+    z-index: 9999;
+}
+
+#copyright {
+    font-family: "YaHei Consolas Hybrid", "Microsoft Yahei Light", "Arial";
+    font-size: 12px;
+    color: #fff;
+    position: fixed;
+    top: 18px;
+    right: 375px;
+}
+
+.layui-icon-file:before {
+    display: none;
+}
+
+.layui-tree-line .layui-tree-entry:hover .layui-tree-txt {
+    text-decoration: none;
+    /* color: #ffe604; */
+}
+
+.layui-tree-line .layui-tree-set:hover {
+    background-color: #f6f6f6;
+    transition: 0.5s all;
+}
+
+.layui-tree-txt {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+#boardSelector > dl {
+    height: 250px;
+}
+
+#mixly-path {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.layui-tab-card {
+    border-width: 0px 1px 0px 1px;
+}
+
+.layui-nav .layui-nav-item a {
+    position: relative;
+    overflow: hidden;
+}
+
+.layui-nav .layui-nav-item a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, #666 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.5s;
+}
+
+.layui-nav .layui-nav-item a:active:after {
+    transform: scale(0, 0);
+    opacity: 0.3;
+    transition: 0s;
+}
+
+.mixly-bg-cyan .content {
+    background-color: #181818;
+}
+
+.mixly-bg-green .content {
+    background-color: #fff;
+}
+
+.mixly-bg-cyan #table_whole {
+    background-color: #181818 !important;
+}
+
+.mixly-bg-green #table_whole {
+    background-color: #fff;
+}
+
+/* 设置滚动条宽高 */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* 设置滚动条滑槽 */
+::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+/* 设置滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    background-color: #C3C1C1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #AEB2AF;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #989998;
+}
+
+/* 设置滚动条滑块 */
+.mixly-bg-green ::-webkit-scrollbar-thumb {
+    background-color: #C3C1C1;
+    border-radius: 4px;
+}
+
+.mixly-bg-green ::-webkit-scrollbar-thumb:hover {
+    background-color: #AEB2AF;
+}
+
+.mixly-bg-green ::-webkit-scrollbar-thumb:active {
+    background-color: #989998;
+}
+
+.mixly-bg-cyan ::-webkit-scrollbar-thumb {
+    background-color: #989998;
+    border-radius: 4px;
+}
+
+.mixly-bg-cyan ::-webkit-scrollbar-thumb:hover {
+    background-color: #AEB2AF;
+}
+
+.mixly-bg-cyan ::-webkit-scrollbar-thumb:active {
+    background-color: #C3C1C1;
+}
+
+/*
+::-webkit-scrollbar-button {
+    width: 10px;
+    height: 10px;
+    background-color: #5F6058;
+}
+*/
+
+.mixly-bg-cyan .layui-tab-card>.layui-tab-title .layui-this {
+    background-color: #c2bebe;
+}
+
+.mixly-bg-cyan .layui-tab-card>.layui-tab-title {
+    background-color: #6c6969;
+}
+
+.mixly-bg-cyan .layui-tab-title li .layui-tab-close {
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-layer {
+    background-color: #6c6969;
+}
+
+.mixly-bg-cyan .layui-layer-title {
+    background-color: #7c7171;
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-layer-title {
+    border-bottom: 1px solid #5d5a5a;
+}
+
+.mixly-bg-cyan .layui-tab-title {
+    background-color: #6c6969;
+}
+
+.mixly-bg-cyan .layui-tab-title .layui-this {
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-badge-rim, .mixly-bg-cyan .layui-colla-content, .mixly-bg-cyan .layui-colla-item, .mixly-bg-cyan .layui-collapse, .mixly-bg-cyan .layui-elem-field, .mixly-bg-cyan .layui-form-pane .layui-form-item[pane], .mixly-bg-cyan .layui-form-pane .layui-form-label, .mixly-bg-cyan .layui-input, .mixly-bg-cyan .layui-layedit, .mixly-bg-cyan .layui-layedit-tool, .mixly-bg-cyan .layui-quote-nm, .mixly-bg-cyan .layui-select, .mixly-bg-cyan .layui-tab-bar, .mixly-bg-cyan .layui-tab-card, .mixly-bg-cyan .layui-tab-title, .mixly-bg-cyan .layui-tab-title .layui-this:after, .mixly-bg-cyan .layui-textarea {
+    border-color: #655050;
+}
+
+.mixly-bg-cyan .layui-tab-title li {
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-tab-content {
+    border-color: #6c6969;
+}
+
+.mixly-bg-cyan .layui-table td, .mixly-bg-cyan .layui-table th, .mixly-bg-cyan .layui-table-col-set, .mixly-bg-cyan .layui-table-fixed-r, .mixly-bg-cyan .layui-table-grid-down, .mixly-bg-cyan .layui-table-header, .mixly-bg-cyan .layui-table-page, .mixly-bg-cyan .layui-table-tips-main, .mixly-bg-cyan .layui-table-tool, .mixly-bg-cyan .layui-table-total, .mixly-bg-cyan .layui-table-view, .mixly-bg-cyan .layui-table[lay-skin=line], .mixly-bg-cyan .layui-table[lay-skin=row] {
+    border-color: #4d4848;
+}
+
+.mixly-bg-cyan .layui-table tbody tr:hover, .mixly-bg-cyan .layui-table thead tr, .mixly-bg-cyan .layui-table-click, .mixly-bg-cyan .layui-table-header, .mixly-bg-cyan .layui-table-hover, .mixly-bg-cyan .layui-table-mend, .mixly-bg-cyan .layui-table-patch, .mixly-bg-cyan .layui-table-tool, .mixly-bg-cyan .layui-table-total, .mixly-bg-cyan .layui-table-total tr, .mixly-bg-cyan .layui-table[lay-even] tr:nth-child(even) {
+    background-color: #5b5959;
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-table {
+    background-color: #726c6c;
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-form-pane .layui-form-label {
+    background-color: #5f5d5d;
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-form-checkbox[lay-skin=primary] span {
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-input, .mixly-bg-cyan .layui-select, .mixly-bg-cyan .layui-textarea {
+    background-color: #4c4a4a;
+    color: #fff;
+    height: 40px;
+}
+
+.mixly-bg-cyan .layui-form-select dl dd.layui-disabled {
+    background-color: #afacac;
+}
+
+.mixly-bg-cyan .layui-form-select dl {
+    background-color: #656464;
+    border: 1px solid #d2d2d2;
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-form-select dl dd.layui-this {
+    background-color: #5FB878;
+    color: #000;
+}
+
+.mixly-bg-cyan .layui-form-select dl dd:hover {
+    background-color: #afa7a7;
+}
+
+.mixly-bg-cyan .layui-nav-child {
+    background-color: #646363;
+    border: 1px solid #646363;
+}
+
+.mixly-bg-cyan .layui-nav .layui-nav-child a {
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-nav .layui-nav-child a:hover {
+    background-color: #AEA6A6;
+}
+
+.mixly-bg-cyan .layui-layer-dialog .layui-layer-content {
+    color: #fff;
+}
+
+.mixly-bg-cyan .layui-layer-btn a {
+    color: #fff;
+    border: 1px solid #765454;
+    background-color: #575353;
+}
+
+/* 窗口尺寸调整框 */
+.mixly-bg-cyan #slider_winsize > div.layui-slider-input.layui-input > div.layui-slider-input-txt > input {
+    height: 38px;
+}
+
+/*
+.layui-form-select dl dd:hover > button {
+    display: inline;
+}
+
+dd > button {
+    display: none;
+}
+*/
+
+#boardSelector > div.layui-unselect.layui-form-select > dl {
+    overflow-y: auto;
+}
+
+.layui-layer-tips .layui-layer-content {
+    background-color: #f2f2f2;
+    color: #000;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+}
+
+.mixly-bg-cyan .layui-layer-tips .layui-layer-content {
+    background-color: #afa7a7;
+    color: #fff;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+}
+
+.layui-layer-tips i.layui-layer-TipsL, .layui-layer-tips i.layui-layer-TipsR {
+    border-bottom-color: #f2f2f2;
+}
+
+.mixly-bg-cyan .layui-layer-tips i.layui-layer-TipsL, .layui-layer-tips i.layui-layer-TipsR {
+    border-bottom-color: #afa7a7;
+}
+
+/*
+.layui-layer-shade {
+    height: 48px;
+}
+*/
+
+.blocklyToolboxDiv {
+    overflow-x: hidden;
+}

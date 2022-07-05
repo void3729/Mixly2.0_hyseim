@@ -1,0 +1,26 @@
+{
+    "nav": {
+        "run": true,
+        "cancel": true,
+        "save": {
+            "img": true,
+            "py": true
+        },
+        "setting": {
+            "thirdPartyLibrary": true
+        }
+    },
+    "lib": {
+        "mixly": {
+            "url": [
+                "http://106.52.57.223:8081/cloud-libs/python/libs.json"
+            ]
+        },
+        "python": {
+            "url": [
+                "http://106.52.57.223:8081/cloud-libs/python/myLib/libs.json"
+            ]
+        }
+    },
+    "pythonToBlockly": true
+}

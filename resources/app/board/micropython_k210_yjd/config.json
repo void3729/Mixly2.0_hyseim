@@ -1,0 +1,45 @@
+{
+    "burn": {
+        "portSelect": "all",
+        "command": "\"{kflash}\" --port {com} --baudrate 1500000 -n \"{indexPath}\\build\\maixpy.bin\" && \"{kflash}\" --port {com} --baudrate 1500000 -n \"{indexPath}\\build\\spiffs.kfpkg\""
+    },
+    "upload": {
+        "type": "mpfs",
+        "portSelect": "all",
+        "command": "cd {indexPath}\\build\\upload && rename main.py mixly.py && for %1 in (*.py) do {indexPath}\\..\\..\\..\\..\\mixpyBuild\\win_python3\\Scripts\\mpfs.exe --nohelp -n -c \"open {com};put %1\"",
+        "filePath": "{indexPath}\\build\\upload\\main.py",
+        "copyLib": true,
+        "reset": [
+            {
+                "dtr": true,
+                "rts": true
+            },{
+                "sleep": 100
+            },{
+                "dtr": false,
+                "rts": false
+            },{
+                "sleep": 100
+            }
+        ]
+    },
+    "nav": {
+        "burn": true,
+        "upload": true,
+        "save": {
+            "img": true,
+            "py": true
+        }
+    },
+    "serial": {
+        "ctrlCBtn": true,
+        "ctrlDBtn": true,
+        "baudRates": 115200,
+        "yMax": 100,
+        "yMin": 0,
+        "pointNum": 100,
+        "rts": false,
+        "dtr": false
+    },
+    "pythonToBlockly": false
+}

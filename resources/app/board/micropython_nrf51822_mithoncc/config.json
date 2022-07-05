@@ -1,0 +1,35 @@
+{
+    "upload": {
+        "type": "volumeLabel",
+        "volumeName": [
+            "MICROBIT",
+            "mithoncc"
+        ],
+        "portSelect": [
+            {
+                "vendorId": "0D28",
+                "productId": "0204"
+            }
+        ],
+        "filePath": "{path}\\hexbuild\\firmware.hex"
+    },
+    "nav": {
+        "upload": true,
+        "save": {
+            "img": true,
+            "py": true,
+            "hex": true
+        }
+    },
+    "serial": {
+        "ctrlCBtn": true,
+        "ctrlDBtn": true,
+        "baudRates": 115200,
+        "yMax": 100,
+        "yMin": 0,
+        "pointNum": 100,
+        "rts": true,
+        "dtr": true
+    },
+    "pythonToBlockly": true
+}

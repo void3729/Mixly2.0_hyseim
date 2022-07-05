@@ -1,0 +1,154 @@
+.setFontSize {
+	position: absolute;
+	right: 20;
+	background-image: url('../media/sprites.png');
+	width: 32px;
+	height: 32px;
+}
+#resetFontSize{
+	bottom: 120;
+	background-position: -96px -92px;
+}
+#increaseFontSize{
+	bottom: 68;
+	background-position: -32px -92px;
+}
+#decreaseFontSize{
+	bottom: 36;
+	background-position: -64px -92px;
+}
+
+#content_blocks > div > div {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/*Blocks*/
+span#span_blocks, span#span_arduino, select#languageMenu {
+    /* font-family: 'SourceHanSansCN-Regular', 'Arial', 'SimHei'; */
+    /* color: #333333; */
+    color: #fff;
+}
+
+div.injectionDiv.geras-renderer.classic-theme div.blocklyTreeRow > div > span.blocklyTreeLabel {
+    /* font-family: 'SourceHanSansCN-Regular', 'Arial', 'SimHei'; */
+    color: #000 !important;
+    font-size: 17px;
+}
+
+div.injectionDiv.geras-renderer.classic-theme div.blocklyTreeRow.blocklyTreeSelected > div > span.blocklyTreeLabel {
+    /* font-family: 'SourceHanSansCN-Regular', 'Arial', 'SimHei'; */
+    color: #fff !important;
+    font-size: 17px;
+}
+
+div.injectionDiv.geras-renderer.dark-theme div.blocklyTreeRow > div > span.blocklyTreeLabel {
+    /* font-family: 'SourceHanSansCN-Regular', 'Arial', 'SimHei'; */
+    color: #fff !important;
+    font-size: 17px;
+}
+
+div.injectionDiv.geras-renderer.dark-theme div.blocklyTreeRow.blocklyTreeSelected > div > span.blocklyTreeLabel {
+    /* font-family: 'SourceHanSansCN-Regular', 'Arial', 'SimHei'; */
+    color: #000 !important;
+    font-size: 17px;
+}
+
+div.injectionDiv.geras-renderer.classic-theme div.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon.blocklyTreeIconOpen{ 
+    background-image: url('../../common/media/sprites.png') !important;
+    height: 16px !important;
+    vertical-align: middle !important;
+    width: 16px !important;
+    margin: 10px !important;
+    background-position: -16px -17px !important;
+    background-size: auto !important; 
+}
+div.injectionDiv.geras-renderer.classic-theme div.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon.blocklyTreeIconClosed{ 
+    background-image: url('../../common/media/sprites.png') !important;
+    height: 16px !important;
+    vertical-align: middle !important;
+    width: 16px !important;
+    margin: 10px !important;
+    background-position: -32px -17px !important;
+    background-size: auto !important; 
+}
+div.injectionDiv.geras-renderer.classic-theme div.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon.blocklyTreeIconOpen{ 
+    background-image: url('../../common/media/sprites.png') !important;
+    height: 16px !important;
+    vertical-align: middle !important;
+    width: 16px !important;
+    margin: 10px !important;
+    background-position: -16px -1px !important;
+    background-size: auto !important; 
+}
+div.injectionDiv.geras-renderer.classic-theme div.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon.blocklyTreeIconClosed{ 
+    background-image: url('../../common/media/sprites.png') !important;
+    height: 16px !important;
+    vertical-align: middle !important;
+    width: 16px !important;
+    margin: 10px !important;
+    background-position: -32px -1px !important;
+    background-size: auto !important; 
+}
+
+div.injectionDiv.geras-renderer.dark-theme div.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon.blocklyTreeIconOpen{ 
+    background-image: url('../../common/media/sprites.png') !important;
+    height: 16px !important;
+    vertical-align: middle !important;
+    width: 16px !important;
+    margin: 10px !important;
+    background-position: -16px -17px !important;
+    background-size: auto !important; 
+}
+div.injectionDiv.geras-renderer.dark-theme div.blocklyTreeRow > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon.blocklyTreeIconClosed{ 
+    background-image: url('../../common/media/sprites.png') !important;
+    height: 16px !important;
+    vertical-align: middle !important;
+    width: 16px !important;
+    margin: 10px !important;
+    background-position: -32px -17px !important;
+    background-size: auto !important; 
+}
+div.injectionDiv.geras-renderer.dark-theme div.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon.blocklyTreeIconOpen{ 
+    background-image: url('../../common/media/sprites.png') !important;
+    height: 16px !important;
+    vertical-align: middle !important;
+    width: 16px !important;
+    margin: 10px !important;
+    background-position: -16px -1px !important;
+    background-size: auto !important; 
+}
+div.injectionDiv.geras-renderer.dark-theme div.blocklyTreeRow.blocklyTreeSelected > div.blocklyTreeRowContentContainer > span.blocklyTreeIcon.blocklyTreeIconClosed{ 
+    background-image: url('../../common/media/sprites.png') !important;
+    height: 16px !important;
+    vertical-align: middle !important;
+    width: 16px !important;
+    margin: 10px !important;
+    background-position: -32px -1px !important;
+    background-size: auto !important; 
+}
+
+text.blocklyText {
+    /* font-family: 'SourceHanSansCN-Regular', 'Arial', 'SimHei'; */
+}
+
+.blocklyWidgetDiv .goog-menuitem-content {
+    color: #000;
+    font: normal 13px Arial, sans-serif;
+    /* font-family: 'SourceHanSansCN-Regular', 'Arial', 'SimHei'; */
+    margin: 0 0 0 0;
+}
+
+/* @font-face {
+    font-family: 'SourceHanSansCN-Regular';
+    src: url('../font/SourceHanSansCN-Regular.otf');
+} */
+
+/* .blocklyHtmlInput {
+	font-family: 'SourceHanSansCN-Regular';
+} */
+
+/*#side_code,.content,.ace_editor,.ace-xcode {
+    font-family: 'SourceHanSansCN-Normal', 'Arial', 'SimHei';
+}*/

@@ -1,0 +1,2 @@
+components/micropython/core/lib/utils/pyexec.c 文件中
+可修改 maixpy 固件在 开发板reset之后打印的micropython提示语句。

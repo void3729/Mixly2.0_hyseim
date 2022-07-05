@@ -1,0 +1,46 @@
+{
+    "board": {
+        "Generic ESP8266 Module": "esp8266:esp8266:generic",
+        "NodeMCU 0.9 (ESP-12 Module)": "esp8266:esp8266:nodemcu",
+        "NodeMCU 1.0 (ESP-12E Module)": "esp8266:esp8266:nodemcuv2",
+        "WeMos D1 R1": "esp8266:esp8266:d1"
+    },
+    "burn": "None",
+    "upload": {
+        "portSelect": "all"
+    },
+    "nav": {
+        "compile": true,
+        "upload": true,
+        "save": {
+            "img": true,
+            "ino": true,
+            "bin": true
+        },
+        "setting": {
+            "thirdPartyLibrary": true
+        }
+    },
+    "serial": {
+        "ctrlCBtn": false,
+        "ctrlDBtn": false,
+        "baudRates": 9600,
+        "yMax": 100,
+        "yMin": 0,
+        "pointNum": 100,
+        "rts": true,
+        "dtr": true
+    },
+    "lib": {
+        "mixly": {
+            "url": [
+                "http://106.52.57.223:8081/cloud-libs/arduino_esp8266/libs.json"
+            ]
+        },
+        "arduino": {
+            "url": [
+                "http://106.52.57.223:8081/cloud-libs/arduino_esp8266/myLib/libs.json"
+            ]
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "board": {
+        "ESP32 Dev Module": "esp32:esp32:esp32",
+        "ESP32 Pico Kit": "esp32:esp32:pico32",
+        "Node32s": "esp32:esp32:node32s",
+        "NodeMCU-32S": "esp32:esp32:nodemcu-32s",
+        "M5Stack-FIRE": "esp32:esp32:m5stack-fire",
+        "BPI-BIT": "esp32:esp32:bpi-bit",
+        "AI Thinker ESP32-CAM": "esp32:esp32:esp32cam"
+    },
+    "burn": "None",
+    "upload": {
+        "portSelect": "all"
+    },
+    "nav": {
+        "compile": true,
+        "upload": true,
+        "save": {
+            "img": true,
+            "ino": true,
+            "bin": true
+        },
+        "setting": {
+            "thirdPartyLibrary": true
+        }
+    },
+    "serial": {
+        "ctrlCBtn": false,
+        "ctrlDBtn": false,
+        "baudRates": 9600,
+        "yMax": 100,
+        "yMin": 0,
+        "pointNum": 100
+    },
+    "lib": {
+        "mixly": {
+            "url": [
+                "http://106.52.57.223:8081/cloud-libs/arduino_esp32/libs.json"
+            ]
+        },
+        "arduino": {
+            "url": [
+                "http://106.52.57.223:8081/cloud-libs/arduino_esp32/myLib/libs.json"
+            ]
+        }
+    }
+}
