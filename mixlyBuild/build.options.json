@@ -1,0 +1,12 @@
+{
+  "additionalFiles": "",
+  "builtInLibrariesFolders": "",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "build.warn_data_percentage=75",
+  "fqbn": "arduino:avr:uno",
+  "hardwareFolders": "E:\\DYH\\Mixly2.0\\arduino-cli\\Arduino15\\packages",
+  "otherLibrariesFolders": "E:\\DYH\\Mixly2.0\\resources\\app\\board\\arduino_avr\\libraries\\myLib,E:\\DYH\\Mixly2.0\\arduino-cli\\libraries,E:\\DYH\\Mixly2.0\\arduino-cli\\Arduino\\libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "E:\\DYH\\Mixly2.0\\testArduino\\testArduino.ino"
+}
