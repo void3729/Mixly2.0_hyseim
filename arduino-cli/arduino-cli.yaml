@@ -1,0 +1,24 @@
+
+    board_manager:
+      additional_urls: [
+        https://arduino.esp8266.com/stable/package_esp8266com_index.json,
+        https://dl.espressif.com/dl/package_esp32_index.json
+      ]
+    daemon:
+      port: "50051"
+    directories:
+      data: E:/DYH/Mixly2.0/arduino-cli/Arduino15
+      downloads: E:/DYH/Mixly2.0/arduino-cli/staging
+      user: E:/DYH/Mixly2.0/arduino-cli/Arduino
+    library:
+      enable_unsafe_install: false
+    logging:
+      file: ""
+      format: text
+      level: info
+    metrics:
+      addr: :9090
+      enabled: true
+    sketch:
+      always_export_binaries: false
+    

@@ -1,0 +1,1881 @@
+{
+  "packages": [
+    {
+      "name": "stm32duino",
+      "maintainer": "stm32duino",
+      "websiteUrl": "http://www.stm32duino.com/",
+      "Url": "http://dan.drown.org/stm32duino/package_STM32duino_index.json",
+      "email": "?",
+      "platforms": [
+        {
+          "name": "STM32F1xx/GD32F1xx boards",
+          "architecture": "STM32F1",
+          "version": "2021.3.18",
+          "category": "STM32",
+          "url": "http://dan.drown.org/stm32duino/STM32F1-2021.3.18.zip",
+          "archiveFileName": "STM32F1-2021.3.18.zip",
+          "checksum": "SHA-256:6f6a8f933853aca0b0de9652d23b9a9a5a622d7ac0028d90949d0552bf858db0",
+          "size": 9005224,
+          "boards": [
+            {
+              "name": "Maple Mini"
+            },
+            {
+              "name": "Maple (Rev 3)"
+            },
+            {
+              "name": "Maple (RET6)"
+            },
+            {
+              "name": "Microduino Core STM32 to Flash"
+            },
+            {
+              "name": "STM Nucleo F103RB (STLink)"
+            },
+            {
+              "name": "Generic STM32F103C series"
+            },
+            {
+              "name": "Generic STM32F103R series"
+            },
+            {
+              "name": "Generic STM32F103T series"
+            },
+            {
+              "name": "Generic STM32F103V series"
+            },
+            {
+              "name": "Generic STM32F103Z series"
+            },
+            {
+              "name": "Generic GD32F103C series"
+            }
+          ],
+          "help": {},
+          "toolsDependencies": [
+            {
+              "packager": "stm32duino",
+              "name": "stm32tools",
+              "version": "2021.3.18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "stm32tools",
+          "version": "2020.3.13",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.3.13.zip",
+              "archiveFileName": "tools_win-2020.3.13.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.3.13.tar.gz",
+              "archiveFileName": "tools_macosx-2020.3.13.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:cf9f5362ae38f6fab2de4b7d9eb04cf213f98c05f4a46748287ebd7593de4d9d"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.3.13.tar.gz",
+              "archiveFileName": "tools_macosx-2020.3.13.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:cf9f5362ae38f6fab2de4b7d9eb04cf213f98c05f4a46748287ebd7593de4d9d"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.3.13.tar.gz",
+              "archiveFileName": "tools_linux64-2020.3.13.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:95b13201fcf005281b425cb20c7314219f4d6a0019eeaca3149cfb0bf696d0be"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.3.13.tar.gz",
+              "archiveFileName": "tools_linux-2020.3.13.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:7a1a92cc67155681986e53b9ed8f2e995ef168a1e669dfebf0e10a0e55cc970a"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.5.26",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.5.26.zip",
+              "archiveFileName": "tools_win-2020.5.26.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.5.26.tar.gz",
+              "archiveFileName": "tools_macosx-2020.5.26.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:47e5578779baf1da87f119316303dedbef217b899791d94aa2c19af799222a0d"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.5.26.tar.gz",
+              "archiveFileName": "tools_macosx-2020.5.26.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:47e5578779baf1da87f119316303dedbef217b899791d94aa2c19af799222a0d"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.5.26.tar.gz",
+              "archiveFileName": "tools_linux64-2020.5.26.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:640a9192693fad83fd99da838272280e6d21ed9c7fcc74233f1f42f83d73a0ed"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.5.26.tar.gz",
+              "archiveFileName": "tools_linux-2020.5.26.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:751001532f9567de8c852c50f99020a46432cb6b41e8d1cc42dc013e85d8a819"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.6.16",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.6.16.zip",
+              "archiveFileName": "tools_win-2020.6.16.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.16.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.16.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:92c248df2766054b38879bceb00667bae35158d4ef1bdba4d4a2f661fa248624"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.16.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.16.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:92c248df2766054b38879bceb00667bae35158d4ef1bdba4d4a2f661fa248624"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.6.16.tar.gz",
+              "archiveFileName": "tools_linux64-2020.6.16.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:0e53d1684ad45692fa71a5401f888a6099c16d7efa44f07ba8bc8f2b44a9fbd4"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.6.16.tar.gz",
+              "archiveFileName": "tools_linux-2020.6.16.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:5e47ad908078d1b7de1c1bf1ada0be32e2135cf5310d7756df105509efe261e7"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.12.14",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.12.14.zip",
+              "archiveFileName": "tools_win-2020.12.14.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.14.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.14.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:e2fa021917d775c96ef5fc24bb97abc543467c66a7186fc1a745bce0e81dd184"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.14.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.14.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:e2fa021917d775c96ef5fc24bb97abc543467c66a7186fc1a745bce0e81dd184"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.12.14.tar.gz",
+              "archiveFileName": "tools_linux64-2020.12.14.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:7826a7900ec026346e5f9b5c0a0772727b885478f3c0ec3fe2999356bf1797a4"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.12.14.tar.gz",
+              "archiveFileName": "tools_linux-2020.12.14.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:1c1594d8c13ee75a4537436337ca12cef9c9c89b4f03464a349fb8af0ef0d687"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2021.2.9",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2021.2.9.zip",
+              "archiveFileName": "tools_win-2021.2.9.zip",
+              "size": 10487035,
+              "checksum": "SHA-256:e13e46a242182c8349d09d95db8c81e2f45d4df62f5caa6384366964b860c18a"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.9.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.9.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:773a65c7806c7d5cf1404db34014abbcc15ff1b169130cec2691e1b6889ad1e9"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.9.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.9.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:773a65c7806c7d5cf1404db34014abbcc15ff1b169130cec2691e1b6889ad1e9"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2021.2.9.tar.gz",
+              "archiveFileName": "tools_linux64-2021.2.9.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:e3537f735b57bb7533615c947cd75648f8ddf0c0312b5bd17955f4d6bdb93a16"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2021.2.9.tar.gz",
+              "archiveFileName": "tools_linux-2021.2.9.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:d7e09b7a27a1c071085c1910f680ed2ea0e04a65aebb763af87794d695ee8bf3"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.8.9",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.8.9.zip",
+              "archiveFileName": "tools_win-2020.8.9.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.8.9.tar.gz",
+              "archiveFileName": "tools_macosx-2020.8.9.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:d994398cb2e4311478037a6b6b26e51c6dc2ed9a918eed85fd5f7579bc44c9a2"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.8.9.tar.gz",
+              "archiveFileName": "tools_macosx-2020.8.9.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:d994398cb2e4311478037a6b6b26e51c6dc2ed9a918eed85fd5f7579bc44c9a2"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.8.9.tar.gz",
+              "archiveFileName": "tools_linux64-2020.8.9.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:05560154ed91c57371c390c78e6869dc74bc89fb06c0d2b9ecb8d19dcf68c62e"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.8.9.tar.gz",
+              "archiveFileName": "tools_linux-2020.8.9.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:a72bf855c2c465701ad7b136356a6ef1ddcf1852be11b1e600dc8d380b4c625e"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.11.14",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.11.14.zip",
+              "archiveFileName": "tools_win-2020.11.14.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.14.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.14.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:881fa42f06606ec0ef4b8e025bf4dfbe034340a295cfa40ea2d562ac33b712b9"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.14.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.14.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:881fa42f06606ec0ef4b8e025bf4dfbe034340a295cfa40ea2d562ac33b712b9"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.11.14.tar.gz",
+              "archiveFileName": "tools_linux64-2020.11.14.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:e74cde54bfa03c74f99d7ad084a856a26b6bf38c3576ec4b7c817cd11f5fe67a"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.11.14.tar.gz",
+              "archiveFileName": "tools_linux-2020.11.14.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:38304119b016f20d8db7e43cf9a1939973e118b3b099ef164ce9394c3dd5a707"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.12.13",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.12.13.zip",
+              "archiveFileName": "tools_win-2020.12.13.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.13.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.13.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:a1ce5b101dc7465835e5f782c7ea95dcab97e03cffc5e9fa0c45f34bbfa0ce04"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.13.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.13.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:a1ce5b101dc7465835e5f782c7ea95dcab97e03cffc5e9fa0c45f34bbfa0ce04"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.12.13.tar.gz",
+              "archiveFileName": "tools_linux64-2020.12.13.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:26d349b87281138bde7da95e5391a99251bfd2dabb4af2c46246cb2c63515713"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.12.13.tar.gz",
+              "archiveFileName": "tools_linux-2020.12.13.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:44cf3e89131fdc33e073e670cf6bc7f795df53c7df98741b795b5207655a7ecc"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.6.7",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.6.7.zip",
+              "archiveFileName": "tools_win-2020.6.7.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.7.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.7.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:c503b58cca46f69f890dad03ec308f832ff772a3ee71745f763401429556a498"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.7.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.7.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:c503b58cca46f69f890dad03ec308f832ff772a3ee71745f763401429556a498"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.6.7.tar.gz",
+              "archiveFileName": "tools_linux64-2020.6.7.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:0ee84fe1c29735f2a0f99bc9ca28bfac4e8e9d9f91749ef0bbb703b51d328097"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.6.7.tar.gz",
+              "archiveFileName": "tools_linux-2020.6.7.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:f43a12952a0dee61daa33bd46cd117de7c0393ead71654464f612e860c99a076"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.8.3",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.8.3.zip",
+              "archiveFileName": "tools_win-2020.8.3.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.8.3.tar.gz",
+              "archiveFileName": "tools_macosx-2020.8.3.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:61863d20934ac8d1bd40e6e4676cc50bec0d6255e4fff4398fe9e6f6cb445b20"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.8.3.tar.gz",
+              "archiveFileName": "tools_macosx-2020.8.3.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:61863d20934ac8d1bd40e6e4676cc50bec0d6255e4fff4398fe9e6f6cb445b20"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.8.3.tar.gz",
+              "archiveFileName": "tools_linux64-2020.8.3.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:819b38932e9a73d1d49c3a5fb7171f977ef59642593ac30093c6a31b25eb159c"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.8.3.tar.gz",
+              "archiveFileName": "tools_linux-2020.8.3.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:9be7af45c346d5738400fd15d25c14650e09a07ee50b684900edefcd12c12893"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.11.9",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.11.9.zip",
+              "archiveFileName": "tools_win-2020.11.9.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.9.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.9.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:c200b24ec5c530f2f8abb60697ba476b18daa996a83831dc751b4fb45c14d8bb"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.9.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.9.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:c200b24ec5c530f2f8abb60697ba476b18daa996a83831dc751b4fb45c14d8bb"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.11.9.tar.gz",
+              "archiveFileName": "tools_linux64-2020.11.9.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:0020191149e2b9a1b0ea39501d2b769d6ec7d5b790bef37a6f5afd4a330e2dc2"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.11.9.tar.gz",
+              "archiveFileName": "tools_linux-2020.11.9.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:ffb5f66c9b1ea6f74824fe14b3a933d901a01eba22c615db1d466e46354e5e84"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.11.30",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.11.30.zip",
+              "archiveFileName": "tools_win-2020.11.30.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.30.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.30.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:fa0cc2ec9b62599be670c4893c8de78fe02a4c21115a1c795b1e8683a9628223"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.30.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.30.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:fa0cc2ec9b62599be670c4893c8de78fe02a4c21115a1c795b1e8683a9628223"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.11.30.tar.gz",
+              "archiveFileName": "tools_linux64-2020.11.30.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:6e9e5f0b5f2d8d76f0d4dbdc7848093ecca42d3f8dc7ebd884e1d5d59c31e189"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.11.30.tar.gz",
+              "archiveFileName": "tools_linux-2020.11.30.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:f0e0a297e91f06e260a81ed0948fe37f2c977bd818706a14335c28dddf11e60c"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2021.2.8",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2021.2.8.zip",
+              "archiveFileName": "tools_win-2021.2.8.zip",
+              "size": 10487035,
+              "checksum": "SHA-256:e13e46a242182c8349d09d95db8c81e2f45d4df62f5caa6384366964b860c18a"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.8.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.8.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:53a967d52876ab81dcfbd83f3b0df50ebc717b34138fe6b7e621b722cbea9cb2"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.8.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.8.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:53a967d52876ab81dcfbd83f3b0df50ebc717b34138fe6b7e621b722cbea9cb2"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2021.2.8.tar.gz",
+              "archiveFileName": "tools_linux64-2021.2.8.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:021730fd7d080ffb8bd05c7169494d9a8818fa2820203c335e7bd9d5870c0cee"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2021.2.8.tar.gz",
+              "archiveFileName": "tools_linux-2021.2.8.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:2a6298261893218601241e8545aeedf7818180a6836c37966375bfdfc37cc22e"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.2.4",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.2.4.zip",
+              "archiveFileName": "tools_win-2020.2.4.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.2.4.tar.gz",
+              "archiveFileName": "tools_macosx-2020.2.4.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:3c44096b9e8ec407a4c7833876ebb9f57927327ca0f6c3a46eeef1cd5e446f91"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.2.4.tar.gz",
+              "archiveFileName": "tools_macosx-2020.2.4.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:3c44096b9e8ec407a4c7833876ebb9f57927327ca0f6c3a46eeef1cd5e446f91"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.2.4.tar.gz",
+              "archiveFileName": "tools_linux64-2020.2.4.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:98b68be3c8167ba41459ce3cf43bf43a078c0da03254a04d4ee33804a2a9b143"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.2.4.tar.gz",
+              "archiveFileName": "tools_linux-2020.2.4.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:cc5a0b4d70c546c8aff98da5145e32f530754baed18ccecf1051d8cfddde83f2"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.2.18",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.2.18.zip",
+              "archiveFileName": "tools_win-2020.2.18.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.2.18.tar.gz",
+              "archiveFileName": "tools_macosx-2020.2.18.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:371d7eff5802993bded96de9f839420aac56d523fd342d924992b23ecd71cbb6"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.2.18.tar.gz",
+              "archiveFileName": "tools_macosx-2020.2.18.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:371d7eff5802993bded96de9f839420aac56d523fd342d924992b23ecd71cbb6"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.2.18.tar.gz",
+              "archiveFileName": "tools_linux64-2020.2.18.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:aa78f7055d787dcc8aa4e1d8f52729e4e0ee377a503e696a0364a00bf5c4a010"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.2.18.tar.gz",
+              "archiveFileName": "tools_linux-2020.2.18.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:254060c424f34c4006eff1f28e57a369410df7f37fc19120d23ebd7b6ee52002"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.6.3",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.6.3.zip",
+              "archiveFileName": "tools_win-2020.6.3.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.3.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.3.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:37bc17add85c94b70fec0e27010d89d1b6451b6a785cf1d386a28809923192ff"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.3.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.3.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:37bc17add85c94b70fec0e27010d89d1b6451b6a785cf1d386a28809923192ff"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.6.3.tar.gz",
+              "archiveFileName": "tools_linux64-2020.6.3.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:8904432530e9512a0e3f8743417afb2dce8fb341c3eeb7cc5b56430fd5cde6af"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.6.3.tar.gz",
+              "archiveFileName": "tools_linux-2020.6.3.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:b9c93aeeec945922564787daa5c3aa5e76a3effa25be7b534ab42364898b494e"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2021.2.22",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2021.2.22.zip",
+              "archiveFileName": "tools_win-2021.2.22.zip",
+              "size": 10487035,
+              "checksum": "SHA-256:e13e46a242182c8349d09d95db8c81e2f45d4df62f5caa6384366964b860c18a"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.22.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.22.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:b82bcbe65d2839e11f61751fb17dad58f86088f73b31c027f34d3d7a448bc738"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.22.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.22.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:b82bcbe65d2839e11f61751fb17dad58f86088f73b31c027f34d3d7a448bc738"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2021.2.22.tar.gz",
+              "archiveFileName": "tools_linux64-2021.2.22.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:b1cafe83a3584cdfe32d750da47d529ee870c981a92f30c801b4bca413c4dbd8"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2021.2.22.tar.gz",
+              "archiveFileName": "tools_linux-2021.2.22.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:671cd3def1e50293902358f7b27b0f49fb870483d0a909b515a78b83eb45486e"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2021.3.4",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2021.3.4.zip",
+              "archiveFileName": "tools_win-2021.3.4.zip",
+              "size": 10487035,
+              "checksum": "SHA-256:e13e46a242182c8349d09d95db8c81e2f45d4df62f5caa6384366964b860c18a"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.3.4.tar.gz",
+              "archiveFileName": "tools_macosx-2021.3.4.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:ad7a75c8d6088a38f3a68f0ec3a0a88471b38e96ea57f47dce0a82e4c2d29a33"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.3.4.tar.gz",
+              "archiveFileName": "tools_macosx-2021.3.4.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:ad7a75c8d6088a38f3a68f0ec3a0a88471b38e96ea57f47dce0a82e4c2d29a33"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2021.3.4.tar.gz",
+              "archiveFileName": "tools_linux64-2021.3.4.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:630c3ae74c9c3d2cdee611302e1c16c64ae33fd334aef6dc60fbce04a81395e6"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2021.3.4.tar.gz",
+              "archiveFileName": "tools_linux-2021.3.4.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:4d0cd1c3ad9489eaac453a61200cb1f338da12eb16902a32bffdc1782b1ecd35"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.10.21",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.10.21.zip",
+              "archiveFileName": "tools_win-2020.10.21.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.10.21.tar.gz",
+              "archiveFileName": "tools_macosx-2020.10.21.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:a12f6f14679114735922024046e7fe65fcf78ab5113246b8704a031cb6723936"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.10.21.tar.gz",
+              "archiveFileName": "tools_macosx-2020.10.21.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:a12f6f14679114735922024046e7fe65fcf78ab5113246b8704a031cb6723936"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.10.21.tar.gz",
+              "archiveFileName": "tools_linux64-2020.10.21.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:e7da603d2c6b9abaeee2941adfbee285ef1fe80da2c674a1be0e3be4295c69fd"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.10.21.tar.gz",
+              "archiveFileName": "tools_linux-2020.10.21.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:788501a596d2f2733f9a24e46b02372fca3acb00d2f75bf4ec259169720a6ffd"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.6.12",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.6.12.zip",
+              "archiveFileName": "tools_win-2020.6.12.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.12.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.12.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:c740f5b2986b6f40a93fa520d9c999dd7c77bbecd241baa325e044a9261b5058"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.12.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.12.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:c740f5b2986b6f40a93fa520d9c999dd7c77bbecd241baa325e044a9261b5058"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.6.12.tar.gz",
+              "archiveFileName": "tools_linux64-2020.6.12.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:a8d76cdfab8edbb2da8b3a41dda769296246aaba9a6ba6152f00ea96af850fea"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.6.12.tar.gz",
+              "archiveFileName": "tools_linux-2020.6.12.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:c8d0bd4de787ea010e6deffd086d4230b8e57ba8d909cfe1cf6560dc00881aa4"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.8.6",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.8.6.zip",
+              "archiveFileName": "tools_win-2020.8.6.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.8.6.tar.gz",
+              "archiveFileName": "tools_macosx-2020.8.6.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:a9a1119c6feec9f81f996f25299ba622335227030541ae5232b5dd67dc0a08dd"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.8.6.tar.gz",
+              "archiveFileName": "tools_macosx-2020.8.6.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:a9a1119c6feec9f81f996f25299ba622335227030541ae5232b5dd67dc0a08dd"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.8.6.tar.gz",
+              "archiveFileName": "tools_linux64-2020.8.6.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:5ad8a4583f4f0387aab04e4d8535ce8994f38227de239b566623bb7d05f37815"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.8.6.tar.gz",
+              "archiveFileName": "tools_linux-2020.8.6.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:46f52e196c94ee25e13e36fb3d43b15b08d6029cb3483f22e5867fb29dd93f86"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.10.19",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.10.19.zip",
+              "archiveFileName": "tools_win-2020.10.19.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.10.19.tar.gz",
+              "archiveFileName": "tools_macosx-2020.10.19.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:a2415e78b45da6ee086011de8966cbf49e0438c8ef1c896ed0497cb5aa9ebf7a"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.10.19.tar.gz",
+              "archiveFileName": "tools_macosx-2020.10.19.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:a2415e78b45da6ee086011de8966cbf49e0438c8ef1c896ed0497cb5aa9ebf7a"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.10.19.tar.gz",
+              "archiveFileName": "tools_linux64-2020.10.19.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:40e998837624804e3f5248721437dfb4849781559b1cc50325bc5cea99a16cb7"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.10.19.tar.gz",
+              "archiveFileName": "tools_linux-2020.10.19.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:0829b8d213a77337092a17cdf4bd01af4e99a162a67287b4b57cc124bc2bad34"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.11.27",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.11.27.zip",
+              "archiveFileName": "tools_win-2020.11.27.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.27.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.27.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:4538860eae4a840e2d6a57c0e6b357e50237950cbc8a5c5b16d8da09412693e4"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.27.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.27.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:4538860eae4a840e2d6a57c0e6b357e50237950cbc8a5c5b16d8da09412693e4"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.11.27.tar.gz",
+              "archiveFileName": "tools_linux64-2020.11.27.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:7a82cc6948fafd8c39e4d357c417ecdaa84b5f2fde71f0d7c5a3f737b3f41b26"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.11.27.tar.gz",
+              "archiveFileName": "tools_linux-2020.11.27.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:6935731a213a1cf65806c1540c72821af7013523194359082d78be342c050556"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2021.2.27",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2021.2.27.zip",
+              "archiveFileName": "tools_win-2021.2.27.zip",
+              "size": 10487035,
+              "checksum": "SHA-256:e13e46a242182c8349d09d95db8c81e2f45d4df62f5caa6384366964b860c18a"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.27.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.27.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:8a6669de8f17b64cf7f500c2dccd5e298fa29b3c292599022bd6909854270e96"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.27.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.27.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:8a6669de8f17b64cf7f500c2dccd5e298fa29b3c292599022bd6909854270e96"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2021.2.27.tar.gz",
+              "archiveFileName": "tools_linux64-2021.2.27.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:6f5615d842733fe359a6613e137ea295eb31e66304b8b76e431b952136e3883d"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2021.2.27.tar.gz",
+              "archiveFileName": "tools_linux-2021.2.27.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:77b83f330ebf1409f0302f27067f05df78afa9400c5f19bf064428a905fbe302"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.2.19",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.2.19.zip",
+              "archiveFileName": "tools_win-2020.2.19.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.2.19.tar.gz",
+              "archiveFileName": "tools_macosx-2020.2.19.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:b0d8f97cd38fbb689d6d47c3d6b8741ecbab7923d75cb4d4b17f1bfa9f6af4cc"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.2.19.tar.gz",
+              "archiveFileName": "tools_macosx-2020.2.19.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:b0d8f97cd38fbb689d6d47c3d6b8741ecbab7923d75cb4d4b17f1bfa9f6af4cc"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.2.19.tar.gz",
+              "archiveFileName": "tools_linux64-2020.2.19.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:1c258b699769481824a71cb7bc890f750a7b8c6a459a5479e7afdef3015792ab"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.2.19.tar.gz",
+              "archiveFileName": "tools_linux-2020.2.19.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:aea8cfb1554513f4c3c0e9cd2abb1dc4e36fdc4a93dc73e7185f4fcba3a2c1ac"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.5.18",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.5.18.zip",
+              "archiveFileName": "tools_win-2020.5.18.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.5.18.tar.gz",
+              "archiveFileName": "tools_macosx-2020.5.18.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:f6ace60ddb3c34b533df03b3e2989c5c8253077757296fc6313126ef8e72f5d5"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.5.18.tar.gz",
+              "archiveFileName": "tools_macosx-2020.5.18.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:f6ace60ddb3c34b533df03b3e2989c5c8253077757296fc6313126ef8e72f5d5"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.5.18.tar.gz",
+              "archiveFileName": "tools_linux64-2020.5.18.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:c6d7afaf5abef44bf6eccafcbfb076969cc88880c74400caff9e88a6799ea3ca"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.5.18.tar.gz",
+              "archiveFileName": "tools_linux-2020.5.18.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:a018509b333894a20c155bbc93bcbbc486b12ebb8966df1fedd37b37f39c56c8"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.11.2",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.11.2.zip",
+              "archiveFileName": "tools_win-2020.11.2.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.2.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.2.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:dcba7e816b4811ea40d0f84d97a207eb8eccaf45cbedf267f74cbd3f99985f60"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.11.2.tar.gz",
+              "archiveFileName": "tools_macosx-2020.11.2.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:dcba7e816b4811ea40d0f84d97a207eb8eccaf45cbedf267f74cbd3f99985f60"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.11.2.tar.gz",
+              "archiveFileName": "tools_linux64-2020.11.2.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:9ac49433667d4d375b3c6451968b04749349e63dc881032c917d08e22223f3c9"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.11.2.tar.gz",
+              "archiveFileName": "tools_linux-2020.11.2.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:8fb865f40608722023e5f68e33424882b28847589b2e94906bea33acb31a24ba"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.12.26",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.12.26.zip",
+              "archiveFileName": "tools_win-2020.12.26.zip",
+              "size": 10487035,
+              "checksum": "SHA-256:e13e46a242182c8349d09d95db8c81e2f45d4df62f5caa6384366964b860c18a"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.26.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.26.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:16fc8f6f918a230c1496a63b4afa6a11be390ae47cdbd3a35e156a289043831b"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.26.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.26.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:16fc8f6f918a230c1496a63b4afa6a11be390ae47cdbd3a35e156a289043831b"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.12.26.tar.gz",
+              "archiveFileName": "tools_linux64-2020.12.26.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:ea91676b270253fd97e910f3aa99c5857c90a4ac7e76c00d0dddea8dfe64f3c0"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.12.26.tar.gz",
+              "archiveFileName": "tools_linux-2020.12.26.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:eed7f15300f584a33cf18143c16bf766eedc042367a80e3fa97fff0dad1bf14b"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2021.2.7",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2021.2.7.zip",
+              "archiveFileName": "tools_win-2021.2.7.zip",
+              "size": 10487035,
+              "checksum": "SHA-256:e13e46a242182c8349d09d95db8c81e2f45d4df62f5caa6384366964b860c18a"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.7.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.7.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:12ad0286f0bdcb84776671b55c66380cfa5cf9c32f3d74e0e47cf35532a626cd"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.2.7.tar.gz",
+              "archiveFileName": "tools_macosx-2021.2.7.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:12ad0286f0bdcb84776671b55c66380cfa5cf9c32f3d74e0e47cf35532a626cd"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2021.2.7.tar.gz",
+              "archiveFileName": "tools_linux64-2021.2.7.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:4a2b98446898b1f1ef026da76a9d3f453deceacdfc9f9ec246caf645505676b7"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2021.2.7.tar.gz",
+              "archiveFileName": "tools_linux-2021.2.7.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:c5b36dd93dd57fab12e4b5f43ab11ebe944b1b4e0314ec7719adfbf1db403d0a"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.4.18",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.4.18.zip",
+              "archiveFileName": "tools_win-2020.4.18.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.4.18.tar.gz",
+              "archiveFileName": "tools_macosx-2020.4.18.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:0749fb39dd8563eecad7c3c17be504d082d4b7f4c7d0a7dfc857e66740da4a6a"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.4.18.tar.gz",
+              "archiveFileName": "tools_macosx-2020.4.18.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:0749fb39dd8563eecad7c3c17be504d082d4b7f4c7d0a7dfc857e66740da4a6a"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.4.18.tar.gz",
+              "archiveFileName": "tools_linux64-2020.4.18.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:f80446b927eda3b5c4e44fc6c2f2ce6d0d1495a614ed4927f1e3376d4145e6c2"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.4.18.tar.gz",
+              "archiveFileName": "tools_linux-2020.4.18.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:700a031ca008d46798cae4d8d389ef8e006b1cfe1f5279b543aec71829dd2bc2"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.4.23",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.4.23.zip",
+              "archiveFileName": "tools_win-2020.4.23.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.4.23.tar.gz",
+              "archiveFileName": "tools_macosx-2020.4.23.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:53120ddc195c69fdce755bca0d28a45c82dce5c0b9a720a893e8a72ec89ad69a"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.4.23.tar.gz",
+              "archiveFileName": "tools_macosx-2020.4.23.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:53120ddc195c69fdce755bca0d28a45c82dce5c0b9a720a893e8a72ec89ad69a"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.4.23.tar.gz",
+              "archiveFileName": "tools_linux64-2020.4.23.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:8c5392ad91a434239a9aa7405cadf963dc49ff8f6a73930480b7f31130dd592b"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.4.23.tar.gz",
+              "archiveFileName": "tools_linux-2020.4.23.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:5e740071b18c10c04f63c681b75ce0783d0e4f172400e6114a83dfa5985c6c6b"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.8.7",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.8.7.zip",
+              "archiveFileName": "tools_win-2020.8.7.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.8.7.tar.gz",
+              "archiveFileName": "tools_macosx-2020.8.7.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:10b363bf18bcc3deff1ee664d4dfb424397c2c14f9f72c3f716b4f14c76867bf"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.8.7.tar.gz",
+              "archiveFileName": "tools_macosx-2020.8.7.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:10b363bf18bcc3deff1ee664d4dfb424397c2c14f9f72c3f716b4f14c76867bf"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.8.7.tar.gz",
+              "archiveFileName": "tools_linux64-2020.8.7.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:918849a39d8f7100b640893b1888a8f8f255321d2daac9ea8aa00d522ee9ef3c"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.8.7.tar.gz",
+              "archiveFileName": "tools_linux-2020.8.7.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:0e13263068d4c246734e3ead113804479070e2a64d66d6af0eb18c7d9a72b858"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.12.7",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.12.7.zip",
+              "archiveFileName": "tools_win-2020.12.7.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.7.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.7.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:4cf65112581710751f414b234bc33449613f6eb252eba1e4e38cdad5d9b0f07a"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.7.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.7.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:4cf65112581710751f414b234bc33449613f6eb252eba1e4e38cdad5d9b0f07a"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.12.7.tar.gz",
+              "archiveFileName": "tools_linux64-2020.12.7.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:dcf5bb22ef3cc13cb321ae615c4c3658c01c50fdbe533dd4b4bf87c6139a1bdc"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.12.7.tar.gz",
+              "archiveFileName": "tools_linux-2020.12.7.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:adb70d05670fce8825b713aeddbea592cc7e8039682f813b59d0b1f664908337"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.12.17",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.12.17.zip",
+              "archiveFileName": "tools_win-2020.12.17.zip",
+              "size": 10487035,
+              "checksum": "SHA-256:e13e46a242182c8349d09d95db8c81e2f45d4df62f5caa6384366964b860c18a"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.17.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.17.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:33d20249d7965ce8201d865663dff3fc3267b1e7fb8570512c48a19814492265"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.17.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.17.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:33d20249d7965ce8201d865663dff3fc3267b1e7fb8570512c48a19814492265"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.12.17.tar.gz",
+              "archiveFileName": "tools_linux64-2020.12.17.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:599eacaa4e44dca0248aa8f7261747e20c190f7bcc0199f1ab41c7c51132930c"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.12.17.tar.gz",
+              "archiveFileName": "tools_linux-2020.12.17.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:a5cf9745730da810e6b511279c92b6ba402e245b15a63da6f49211cf1323a53b"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2021.3.18",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2021.3.18.zip",
+              "archiveFileName": "tools_win-2021.3.18.zip",
+              "size": 10487035,
+              "checksum": "SHA-256:e13e46a242182c8349d09d95db8c81e2f45d4df62f5caa6384366964b860c18a"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.3.18.tar.gz",
+              "archiveFileName": "tools_macosx-2021.3.18.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:cf070a276ec6d62466eb2ae72925a4b616fe4d464ca90536d3d6ad63bd60d664"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2021.3.18.tar.gz",
+              "archiveFileName": "tools_macosx-2021.3.18.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:cf070a276ec6d62466eb2ae72925a4b616fe4d464ca90536d3d6ad63bd60d664"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2021.3.18.tar.gz",
+              "archiveFileName": "tools_linux64-2021.3.18.tar.gz",
+              "size": 966805,
+              "checksum": "SHA-256:ee7536e64b262f68889a9ea26c14b63ef9696b767830dfbb05883fcfd88123c8"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2021.3.18.tar.gz",
+              "archiveFileName": "tools_linux-2021.3.18.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:9017b369f01876d0a9b60b7da6cbe7e6e5bf62604fa1720afc8bb10f2ef56d51"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.1.17",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.1.17.zip",
+              "archiveFileName": "tools_win-2020.1.17.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.1.17.tar.gz",
+              "archiveFileName": "tools_macosx-2020.1.17.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:5fa24ba9935fd098d37cab90191dddb8604c63519f57c73b549ef2f45c769b45"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.1.17.tar.gz",
+              "archiveFileName": "tools_macosx-2020.1.17.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:5fa24ba9935fd098d37cab90191dddb8604c63519f57c73b549ef2f45c769b45"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.1.17.tar.gz",
+              "archiveFileName": "tools_linux64-2020.1.17.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:b86398aac0782e8532c9225437600491a35cc39b9f2f67dd4f9151cb9d6d3ee7"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.1.17.tar.gz",
+              "archiveFileName": "tools_linux-2020.1.17.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:56577080301e06d3df5e5f3512690972ce6d66ce02e63755b8c2c7b51f590f02"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.1.24",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.1.24.zip",
+              "archiveFileName": "tools_win-2020.1.24.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.1.24.tar.gz",
+              "archiveFileName": "tools_macosx-2020.1.24.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:497b11b1f163a8bf053df0f62b0468f2d153bd2bf776a0788d66f96fc5a328c5"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.1.24.tar.gz",
+              "archiveFileName": "tools_macosx-2020.1.24.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:497b11b1f163a8bf053df0f62b0468f2d153bd2bf776a0788d66f96fc5a328c5"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.1.24.tar.gz",
+              "archiveFileName": "tools_linux64-2020.1.24.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:2b0af3fd80f6b819fd0863335eb793b5de94392ca1407c44401b494865448bad"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.1.24.tar.gz",
+              "archiveFileName": "tools_linux-2020.1.24.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:b50d006e75710feeebed486c868ce50eddaf809229715021567c55603edd6705"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.2.24",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.2.24.zip",
+              "archiveFileName": "tools_win-2020.2.24.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.2.24.tar.gz",
+              "archiveFileName": "tools_macosx-2020.2.24.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:ce1ea77d393dcff45b9224e8e588bee5cc3452e4f3d9e92ca58413872f0ad54d"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.2.24.tar.gz",
+              "archiveFileName": "tools_macosx-2020.2.24.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:ce1ea77d393dcff45b9224e8e588bee5cc3452e4f3d9e92ca58413872f0ad54d"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.2.24.tar.gz",
+              "archiveFileName": "tools_linux64-2020.2.24.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:ee877f0c9a49a3c1c841065828cb7f49f9c3d910cfab923190c4d10016cc7e57"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.2.24.tar.gz",
+              "archiveFileName": "tools_linux-2020.2.24.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:cb4a5a752c3007c53f1f497ad0cad4f2e3f46cefe5b178f3874d0abef03d2b26"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.6.20",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.6.20.zip",
+              "archiveFileName": "tools_win-2020.6.20.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.20.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.20.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:38ff6b033292042592b871d47fbd66d25b8027b398ebc9b97539c76d24f6100e"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.20.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.20.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:38ff6b033292042592b871d47fbd66d25b8027b398ebc9b97539c76d24f6100e"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.6.20.tar.gz",
+              "archiveFileName": "tools_linux64-2020.6.20.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:bda66800aee4ceff3e2be9228b1957491a69e544dfcbb0c64ba7a712ed95b457"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.6.20.tar.gz",
+              "archiveFileName": "tools_linux-2020.6.20.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:fbc84081905c0140452782b6fa73b449e2ade1cba57e5de6311c81caecd3b757"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.12.6",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.12.6.zip",
+              "archiveFileName": "tools_win-2020.12.6.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.6.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.6.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:114469922baefcd9664bf43f4bfd437ee1eeaa63a2a96bdc0a9e365b9c770ce4"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.6.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.6.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:114469922baefcd9664bf43f4bfd437ee1eeaa63a2a96bdc0a9e365b9c770ce4"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.12.6.tar.gz",
+              "archiveFileName": "tools_linux64-2020.12.6.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:03b58aef3fc3299cfce73b64e2f1ea966b5d38a974a6872bd5f9e141b3018fae"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.12.6.tar.gz",
+              "archiveFileName": "tools_linux-2020.12.6.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:92d96b56c99681eaeb1e07d8e888d72bc899b7174b12dead95f349d2fe2e7a19"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.12.8",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.12.8.zip",
+              "archiveFileName": "tools_win-2020.12.8.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.8.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.8.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:d5309314d6af03d1cb289699293021bb72d64d3d2a54c9fbfac24d57781e0acf"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.12.8.tar.gz",
+              "archiveFileName": "tools_macosx-2020.12.8.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:d5309314d6af03d1cb289699293021bb72d64d3d2a54c9fbfac24d57781e0acf"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.12.8.tar.gz",
+              "archiveFileName": "tools_linux64-2020.12.8.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:149118f01af86ed42b68b39619e44a39003f6c44f2ad2ea0eb318c8ace10efe5"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.12.8.tar.gz",
+              "archiveFileName": "tools_linux-2020.12.8.tar.gz",
+              "size": 913212,
+              "checksum": "SHA-256:122fa09e3f463f8845b3acfe2442a4ea9008338da509839be44a302151717248"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.5.16",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.5.16.zip",
+              "archiveFileName": "tools_win-2020.5.16.zip",
+              "size": 10487028,
+              "checksum": "SHA-256:96aeb842f0627a63a6d0ed14bba8bca354cacef70d721f16272e901c2d4b0fa0"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.5.16.tar.gz",
+              "archiveFileName": "tools_macosx-2020.5.16.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:e355a90bf3292fdf19c488e547d5cb67e66966d91204b2e9e5a768765afe4a5e"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.5.16.tar.gz",
+              "archiveFileName": "tools_macosx-2020.5.16.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:e355a90bf3292fdf19c488e547d5cb67e66966d91204b2e9e5a768765afe4a5e"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.5.16.tar.gz",
+              "archiveFileName": "tools_linux64-2020.5.16.tar.gz",
+              "size": 951362,
+              "checksum": "SHA-256:eb6188b36d9b3d5a5f9e92131bdbd9ee5a0840a66f76a17a3fb276a64ffeff1b"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.5.16.tar.gz",
+              "archiveFileName": "tools_linux-2020.5.16.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:04341efc538ca910d4153aca7963a02525413ef49fd41a08c0fda5d3e3c137ba"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.6.4",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.6.4.zip",
+              "archiveFileName": "tools_win-2020.6.4.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.4.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.4.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:82817dab86dd49c6b9766d74f8242ff7cf66ec35555bbea3f0f717863c095f69"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.4.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.4.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:82817dab86dd49c6b9766d74f8242ff7cf66ec35555bbea3f0f717863c095f69"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.6.4.tar.gz",
+              "archiveFileName": "tools_linux64-2020.6.4.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:ebce4ce3ac3b9e8dfe3c64f3b1d72c48e42e20cf5c51485f5561484afe7a5bae"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.6.4.tar.gz",
+              "archiveFileName": "tools_linux-2020.6.4.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:fa5a8aec09075f24591a94bf270e4c460f5208f10bbd6865988adf8d92ce5905"
+            }
+          ]
+        },
+        {
+          "name": "stm32tools",
+          "version": "2020.6.17",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://dan.drown.org/stm32duino/tools_win-2020.6.17.zip",
+              "archiveFileName": "tools_win-2020.6.17.zip",
+              "size": 10487026,
+              "checksum": "SHA-256:5ab4ca554e9d9100c708d72d9924b7058f141b36d54bd5d143e0c058c9232395"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.17.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.17.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:293a5dd09c7db3e2822b6f1d3ac8fd440d2db2e5c3c60d300409e9554e58f2af"
+            },
+            {
+              "host": "i386-apple-darwin",
+              "url": "http://dan.drown.org/stm32duino/tools_macosx-2020.6.17.tar.gz",
+              "archiveFileName": "tools_macosx-2020.6.17.tar.gz",
+              "size": 827666,
+              "checksum": "SHA-256:293a5dd09c7db3e2822b6f1d3ac8fd440d2db2e5c3c60d300409e9554e58f2af"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux64-2020.6.17.tar.gz",
+              "archiveFileName": "tools_linux64-2020.6.17.tar.gz",
+              "size": 966461,
+              "checksum": "SHA-256:f01fa4ab357101af49a07968eb893f9fc447e1085c2ce771c8939e60a69bf7d7"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://dan.drown.org/stm32duino/tools_linux-2020.6.17.tar.gz",
+              "archiveFileName": "tools_linux-2020.6.17.tar.gz",
+              "size": 914273,
+              "checksum": "SHA-256:3a74b5a532ca669063da719d0a9375e290ba6d3bfaf65fd1826df53dc277004b"
+            }
+          ]
+        }
+      ],
+      "help": {
+        "online": "http://www.stm32duino.com/"
+      }
+    }
+  ],
+  "IsTrusted": false
+}

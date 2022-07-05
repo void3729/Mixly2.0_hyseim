@@ -1,0 +1,30 @@
+###########################################
+# Syntax Coloring Map For DHT-sensor-library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+VOICE_68 	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+begin 	KEYWORD2
+send_data 	KEYWORD2
+set_play_number 	KEYWORD2
+set_volume 	KEYWORD2
+set_usb_flash 	KEYWORD2
+set_sd 		KEYWORD2
+set_mp3 	KEYWORD2
+set_flash 	KEYWORD2
+set_eq  	KEYWORD2
+cycle_all 	KEYWORD2
+cycle_single 	KEYWORD2
+play_up 	KEYWORD2
+play_down  	KEYWORD2
+play 	KEYWORD2
+pause 	KEYWORD2
+stop 	KEYWORD2
