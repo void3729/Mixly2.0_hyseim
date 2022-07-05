@@ -1,0 +1,2 @@
+# 同步时忽略以下路径
+/arduino-cli/libraries/
